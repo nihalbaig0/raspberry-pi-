@@ -31,3 +31,28 @@
 `sudo make install`
 
 `/usr/local/opt/python-3.9.1/bin/python3.9 --version`
+
+> Setup the app python virtual environment
+In *~/python-source/Python-3.9.1*
+
+`sudo su`
+ 
+`cd var`
+ 
+`ls -al`
+ 
+`mkdir www`
+
+`cd www`
+
+`mkdir lab_app`
+
+`cd lap_app`
+
+`/usr/local/opt/python-3.9.1/bin/python3.9 -m venv .`
+
+`. bin/activate`
+
+`python --version`
+
+`deactivate`
