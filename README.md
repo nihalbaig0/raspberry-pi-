@@ -27,3 +27,7 @@
 `./configure --prefix=/usr/local/opt/python-3.9.1`
 
 `make`
+
+`sudo make install`
+
+`/usr/local/opt/python-3.9.1/bin/python3.9 --version`
