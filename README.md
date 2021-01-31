@@ -56,3 +56,20 @@ In *~/python-source/Python-3.9.1*
 `python --version`
 
 `deactivate`
+
+> Nginx configuration
+
+`cat /etc/nginx/sites-enabled/default`
+
+`rm /etc/nginx/sites-enabled/default`
+
+`nano lab_app_nginx.conf`
+
+`ln -s /var/www/lab_app/lab_app_nginx.conf /etc/nginx/conf.d/`
+
+`ls -al /etc/nginx/conf.d/`
+
+`/etc/init.d/nginx restart`
+
+
+
